@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0; 
+  align-items: center;
+}
+
+.centered-image {
+  max-width: 100%; /* makes sure the image fits within the container */
+}
+
+h1 {
+  font-family: serif;
+  font-size: 45px;
+  text-decoration: underline;
+  margin-top: 50px; 
+}
+
+.cardboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+}
