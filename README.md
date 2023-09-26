@@ -1,17 +1,55 @@
-## Running React on Repl.it
+# Web Development Project 2 - *Flashcards*
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Submitted by: **Rafi Hossain**
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+This web app: **A web app for Flashcards! The flash cards quiz you on your football (soccer) knowledge.**
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Time spent: **10** hours spent in total
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Required Features
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+The following **required** functionality is completed:
 
-### Typescript
+- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [x] **A list of card pairs is created**
+- [x] **Clicking on the card shows the corresponding component of the information pair**
+- [x] **Clicking the next button displays a random new card**
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+The following **optional** features are implemented:
+
+- [ ] Cards contains images in addition to or in place of text
+- [ ] Cards have different visual styles such as color based on their category
+  - [ ] *visual style implemented*
+
+The following **additional** features are implemented:
+
+* [ ] List anything else that you added to improve the site's functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+<img src='flashcardgif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with LiceCap
+
+
+## Notes
+
+I had trouble getting the card to show the answer. I also struggled to show the correct side of the card after clicking the next button. However, I figured out later by playing around with the useState hook.
+## License
+
+    Copyright [2023] [Sajib Rafi Hossain]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
