@@ -1,0 +1,28 @@
+.flashcard {
+  width: 600px;
+  height: 350px;
+  background-color: #dfd8d8;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  user-select: none;
+  transition: background-color 0.3s;
+  margin-top: 170px;
+  
+
+}
+
+
+.flashcard:hover {
+  background-color: #f0f0f0;
+}
+
+.show-answer {
+  background-color: #dfd8d8; /* Change the background color for the answer side */
+  font-weight: bold;
+}

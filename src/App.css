@@ -1,22 +1,39 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/gradient-football-field-background_52683-66081.jpg");
+  background-size: 100%;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+}
+
+h2{
+  color: white;
+  font-size: 48px;
+}
+
+h3{
+  color: white;
+  font-size: 42px;
+}
+
 .App {
-  text-align: center;
-  background-color: #f0f0f0; 
-  align-items: center;
+  text-align: center; /* Center-align the content horizontally */
+  height: 100px;
 }
 
-.centered-image {
-  max-width: 100%; /* makes sure the image fits within the container */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-h1 {
-  font-family: serif;
-  font-size: 45px;
-  text-decoration: underline;
-  margin-top: 50px; 
-}
-
-.cardboard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Center the cards horizontally */
+button:hover {
+  background-color: #0056b3;
 }
