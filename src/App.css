@@ -24,7 +24,10 @@ h3{
 }
 
 button {
-  background-color: #007bff;
+  font-size: 80px;
+  width: 90px;
+  height: 50px;
+  background-color: #3893f5;
   color: white;
   border: none;
   padding: 10px 20px;
