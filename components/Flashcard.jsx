@@ -6,6 +6,9 @@ const Flashcard = ({answer,question, showFlip, setShowFlip}) => {
   const toggleAnswer = () => {
     setShowFlip(!showFlip);    
   }   //toggle the value of showFlip between true and false. Called when flash clicked
+  
+
+
 
   
   return (

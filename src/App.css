@@ -1,6 +1,7 @@
 body {
   background-image: url("https://img.freepik.com/free-vector/gradient-football-field-background_52683-66081.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -35,8 +36,30 @@ button {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
+  margin: 10px;
 }
 
 button:hover {
   background-color: #0056b3;
 }
+
+.feedback {
+  font-size: 25px;
+  font-weight: bold;
+  color: blue; 
+  margin-top: 10px; 
+}
+
+.feedback-incorrect {
+  color: red; 
+}
+
+.input-container{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+
+
