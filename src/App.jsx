@@ -48,13 +48,13 @@ const App = () => {
 
   const [currentCard, setCurrentCard] = useState(0);
   const [showFlip, setShowFlip] = useState(false);
-     //keeps track of the displayed card. intially 0 to start w/ first card
+     //keep track of the displayed card. intially 0 to start w/ first card
   const [Guess, setGuess] = useState('');
   const [feedback, setFeedback] = useState('');
 
   const nextCard = () => {
     
-    //getting random card for the next card
+    //getting a random card for the next card
     const newCard = Math.floor(Math.random() * cards.length);
     //to make sure new one is not the same as current:
     if (newCard !== currentCard) {

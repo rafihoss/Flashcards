@@ -20,7 +20,7 @@ h3{
 }
 
 .App {
-  text-align: center; /* Center-align the content horizontally */
+  text-align: center; /*center align the content horizontally*/
   height: 100px;
 }
 
@@ -43,6 +43,7 @@ button:hover {
   background-color: #0056b3;
 }
 
+
 .feedback {
   font-size: 25px;
   font-weight: bold;
@@ -59,6 +60,12 @@ button:hover {
   align-items: center; 
   justify-content: center;
   margin-top: 20px; 
+  margin-bottom: -20px;
+}
+
+input{
+  height: 30px;
+  font-size: 18px;
 }
 
 

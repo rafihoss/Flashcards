@@ -6,15 +6,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 25px;
   cursor: pointer;
   border: 1px solid #000000;
   border-radius: 8px;
   user-select: none;
   transition: background-color 0.3s;
   margin-top: 120px;
-  
-
 }
 
 
@@ -23,6 +21,6 @@
 }
 
 .show-answer {
-  background-color: #dfd8d8; /* Change the background color for the answer side */
+  background-color: #dfd8d8; /* changing backgorund color for answer side*/
   font-weight: bold;
 }

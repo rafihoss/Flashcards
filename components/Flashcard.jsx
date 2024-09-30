@@ -5,7 +5,7 @@ import './flashcard.css'
 const Flashcard = ({answer,question, showFlip, setShowFlip}) => {
   const toggleAnswer = () => {
     setShowFlip(!showFlip);    
-  }   //toggle the value of showFlip between true and false. Called when flash clicked
+  }   //toggle the value of showFlip between true and false. called when flash clicked
   
 
 
